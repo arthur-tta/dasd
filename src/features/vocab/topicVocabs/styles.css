@@ -1,0 +1,71 @@
+.background-vocab {
+    width: 1200px;
+    padding-top: 0;
+    margin: 0 auto;
+    background-color: #CCFFFF;
+}
+
+
+.background-vocab .header h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.background-vocab .body {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.background-vocab .body .vocab {
+    border: 1px solid #000;
+    width: 1000px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.background-vocab .body .vocab:hover {
+    background-color: #FFFF66;
+}
+
+
+
+.background-vocab .body .vocab .vocab-left img{
+    margin-left: 35px;
+    margin-top: 40px;
+    width: 220px;
+    height: auto;
+   
+}
+
+
+.background-vocab .body .vocab .vocab-right {
+    margin-top: 30px;
+}
+
+.background-vocab .body .vocab .vocab-right p {
+    line-height: 19px;
+}
+
+.background-vocab .footer {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+  
+}
+
+.background-vocab .footer .btn-last-topic {
+    position: relative;
+    left: 300px;
+}
+
+.background-vocab .footer .btn-next-topic {
+    position: relative;
+    left: 180px;
+}

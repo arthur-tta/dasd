@@ -1,0 +1,44 @@
+.background-topic-vocab {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #CCFFFF;
+    padding: 0 20px;
+}
+
+.background-topic-vocab .header h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.background-topic-vocab .body {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+
+.background-topic-vocab .body .topic-card .body-topic-card  {
+    margin: 0 auto;
+    width: 250px;
+    background-color: #f8f9fa;
+    border: 1px solid #000;
+
+}
+
+.background-topic-vocab .body .topic-card .body-topic-card:hover {
+    background-color: #FFFF66;
+    cursor: pointer;
+}
+
+.background-topic-vocab .body .topic-card .body-topic-card img {
+    width: 248px;
+    height: 200px;
+}
+
+.background-topic-vocab .body .topic-card .body-topic-card p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}

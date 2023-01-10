@@ -1,0 +1,76 @@
+.infor {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #CCFFFF;
+}
+
+.infor .infor__header h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.infor .infor__body {
+    display: grid;
+    grid-template-columns: 275px 850px;
+    width: 1135px;
+    column-gap: 10px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.infor .infor__body .infor__body__sidebar {
+    border: 1px solid #000;
+    background-color: #f8f9fa;
+}
+
+.infor .infor__body .infor__body__sidebar ul {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.infor .infor__body .infor__body__sidebar ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    
+}
+.infor .infor__body .infor__body__sidebar ul li a{
+    text-decoration: none;
+    
+}
+
+
+.infor .infor__body .infor__body__content {
+    background-color: #f8f9fa;
+    border: 1px solid #000;
+    
+
+}
+
+.infor .infor__body .infor__body__content .header h1 {
+    font-size: 30px;
+    margin-left: 25px;
+    color: #0d6efd;
+}
+
+.infor .infor__body .infor__body__content .body {
+    display: grid;
+    grid-template-columns: 200px 160px auto;
+}
+
+.infor .infor__body .infor__bpdy__content .body p {
+    line-height: 2.5;
+}
+
+.infor .infor__body .infor__body__content .body img {
+    width: 140px;
+    height: 140px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.infor .infor__body .infor__body__content .body .information-left p {
+   font-weight: bold;
+   color: #0d6efd;
+}

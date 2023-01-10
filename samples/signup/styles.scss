@@ -1,0 +1,62 @@
+.signup-screen {
+    margin: 0px;
+    padding: 0px;
+    height: calc(100vh - 60px);
+    // font-family: 'IBM Plex Sans', sans-serif;
+    
+    img {
+        width: 100vh;
+    }
+
+    .signup-form {
+        margin: 0px 80px;
+        .title {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            margin-top: 15px;
+            color: #634E86;
+        }
+
+        .form-label {
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 20px;
+            color: #464343;
+        }
+
+        .form-control {
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid #634E86;
+            border-radius: 20px;
+        }
+        .text-end {
+            font-size: 14px;
+            color: #A09E9E;   
+            margin-top: 10px;     
+        }
+
+        .btn-submit {
+            background: #634E86;
+            background: #634E86;
+            border: 3px solid #FFFFFF;
+            border-radius: 30px;
+            font-size: 20px;
+            // margin-top: 20px;
+            margin: 30px auto 10px auto;
+        }
+
+        .btn-login {
+            background: #fff;
+            color: #634E86;
+            border: 0px;
+            text-decoration: underline;
+
+            &:hover {
+                color: #46375e;
+                font-weight: 600;
+            }
+        }
+    }
+}
